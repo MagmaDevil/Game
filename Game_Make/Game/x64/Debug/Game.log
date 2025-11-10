@@ -1,0 +1,8 @@
+﻿  code.c
+C:\Users\USERK\Desktop\Game\Game\code.c(15,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\USERK\Desktop\Game\Game\code.c(15,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\USERK\Desktop\Game\Game\code.c(7,6): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'char [5]'과(와) 다릅니다.
+C:\Users\USERK\Desktop\Game\Game\code.c(7,6): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'char [7]'과(와) 다릅니다.
+C:\Users\USERK\Desktop\Game\Game\code.c(7,6): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'char [9]'과(와) 다릅니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\USERK\Desktop\Game\Game\x64\Debug\Game.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
