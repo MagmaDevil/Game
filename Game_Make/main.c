@@ -6,6 +6,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 #include "code.h"
 
 int main()
@@ -32,5 +33,5 @@ int * LUKPtr = &LUK;		 // Заїо
 #pragma endregion
 
 SelectRace(&Player_Race, HPPtr, ATKPtr, DEFPtr, SPDPtr, INTPtr, LUKPtr);
-SelectClass(Player_Class, &Player_Class, HPPtr, ATKPtr, DEFPtr, SPDPtr, INTPtr, LUKPtr);
+SelectClass(&Player_Race, &Player_Class, HPPtr, ATKPtr, DEFPtr, SPDPtr, INTPtr, LUKPtr);
 }

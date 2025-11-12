@@ -108,12 +108,15 @@ void SelectRace(Race* RacePtr, int* HPPtr, int* ATTACKPtr, int* DEFENCEPtr, int*
 	default: TempRace = Error;
 		break;
 	}
+
+	system("cls");
 }
 
-void SelectClass(Race RacePtr, Class* ClassPtr, int* HPPtr, int* ATTACKPtr, int* DEFENCEPtr, int* SPEEDPtr, int* INTPtr, int* LUCKPtr)
+void SelectClass(Race *RacePtr, Class* ClassPtr, int* HPPtr, int* ATTACKPtr, int* DEFENCEPtr, int* SPEEDPtr, int* INTPtr, int* LUCKPtr)
 {
 	printf("\n시작 직업을 선택하세요.\n\n");
 
+	const char* RaceList[8] = { "인간", "고블린", "오크", "골렘", "고스트", "좀비", "스켈레톤", "엘프" };
 	const char* ClassList[3] = {"초급 전사", "초급 마법사", "초급 사제"};
 
 	int input = 0;
@@ -131,7 +134,7 @@ void SelectClass(Race RacePtr, Class* ClassPtr, int* HPPtr, int* ATTACKPtr, int*
 	*ClassPtr = input;
 	Class TempClass = *ClassPtr;
 
-	switch (RacePtr)
+	switch (*RacePtr)
 	{
 	case 인간:
 		switch (TempClass)
@@ -335,14 +338,83 @@ void SelectClass(Race RacePtr, Class* ClassPtr, int* HPPtr, int* ATTACKPtr, int*
 		break;
 
 	case 스켈레톤:
-		
+		switch (TempClass)
+		{
+		case 초급전사:
+			*HPPtr += 5;
+			*ATTACKPtr += 2;
+			*DEFENCEPtr += 3;
+			*SPEEDPtr -= 1;
+			*INTPtr -= 1;
+			printf("직업을 초급 전사로 선택하셨습니다\n");
+			break;
+
+		case 초급마법사:
+			*HPPtr -= 1;
+			*ATTACKPtr -= 1;
+			*DEFENCEPtr -= 1;
+			*SPEEDPtr += 1;
+			*INTPtr += 3;
+			printf("직업을 초급 마법사로 선택하셨습니다\n");
+			break;
+
+		case 초급사제:
+			*HPPtr -= 1;
+			*ATTACKPtr -= 1;
+			*DEFENCEPtr -= 1;
+			*SPEEDPtr += 1;
+			*INTPtr += 1;
+			*LUCKPtr += 1;
+			printf("직업을 초급 사제로 선택하셨습니다\n");
+			break;
+
+		default: TempClass = 무직;
+			break;
+		}
 		break;
 
 	case 엘프:
-		
+		switch (TempClass)
+		{
+		case 초급전사:
+			*HPPtr += 5;
+			*ATTACKPtr += 2;
+			*DEFENCEPtr += 3;
+			*SPEEDPtr -= 1;
+			*INTPtr -= 1;
+			printf("직업을 초급 전사로 선택하셨습니다\n");
+			break;
+
+		case 초급마법사:
+			*HPPtr -= 1;
+			*ATTACKPtr -= 1;
+			*DEFENCEPtr -= 1;
+			*SPEEDPtr += 1;
+			*INTPtr += 3;
+			printf("직업을 초급 마법사로 선택하셨습니다\n");
+			break;
+
+		case 초급사제:
+			*HPPtr -= 1;
+			*ATTACKPtr -= 1;
+			*DEFENCEPtr -= 1;
+			*SPEEDPtr += 1;
+			*INTPtr += 1;
+			*LUCKPtr += 1;
+			printf("직업을 초급 사제로 선택하셨습니다\n");
+			break;
+
+		default: TempClass = 무직;
+			break;
+		}
 		break;
 
-	default: RacePtr = Error;
+	default: *RacePtr = Error;
 		break;
 	}
+
+	system("cls");
+
+	printf("당신은 %s족의 %s입니다\n", RaceList[*RacePtr], ClassList[TempClass]);
+	printf("능력치\n체력: %d\t공격력: %d\t방어력: %d\t스피드: %d\t지력: %d\t행운: %d\t", *HPPtr, *ATTACKPtr, *DEFENCEPtr, *SPEEDPtr, *INTPtr, *LUCKPtr);
 }

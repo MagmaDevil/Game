@@ -1,6 +1,7 @@
 #pragma once
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 
 #ifndef Race_L
 
@@ -36,7 +37,9 @@ typedef enum
 	전투마법사,
 	원소술사,
 	정령술사,
-	
+	이단심판관,
+	회복술사,
+	고위사제,
 	무직 = 100
 }Class;
 
@@ -44,4 +47,4 @@ typedef enum
 
 void SelectRace(Race* RacePtr, int *HPPtr, int* ATTACKPtr, int* DEFENCEPtr, int* SPEEDPtr, int* INTPtr, int* LUCKPtr);
 
-void SelectClass(Race RacePtr, Class* ClassPtr, int* HPPtr, int* ATTACKPtr, int* DEFENCEPtr, int* SPEEDPtr, int* INTPtr, int* LUCKPtr);
+void SelectClass(Race *RacePtr, Class* ClassPtr, int* HPPtr, int* ATTACKPtr, int* DEFENCEPtr, int* SPEEDPtr, int* INTPtr, int* LUCKPtr);
