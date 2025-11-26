@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\code.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|solutionrelative:code.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\code.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|solutionrelative:code.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\code.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5892561C-E0C8-4FA1-9413-E539A84A573F}|Game.vcxproj|solutionrelative:code.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,33 +36,31 @@
               "RelativeDocumentMoniker": "code.c",
               "ToolTip": "C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\code.c",
               "RelativeToolTip": "code.c",
-              "ViewState": "AgIAAJ8BAAAAAAAAAAAAAJ8BAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJ8BAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-10T08:25:49.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:25:49.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "code.h",
               "DocumentMoniker": "C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\code.h",
               "RelativeDocumentMoniker": "code.h",
               "ToolTip": "C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\code.h",
               "RelativeToolTip": "code.h",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-10T08:25:07.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:25:07.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\main.c",
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\USERK\\Desktop\\Game\\Game_Make\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-10T08:03:50.08Z",
               "EditorCaption": ""
